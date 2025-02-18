@@ -1,7 +1,4 @@
-function converterTemperatura() {
-    let celsius = document.getElementById('celsius').value;
-
-    let fahrenheit = (celsius * 9/5) + 32;
-
-    alert("A temperatura é: " + fahrenheit);
+function exibirNome() {
+    const nome = document.getElementById('usuario').value;
+    alert("Seja bem-vindo " + nome);
 }
